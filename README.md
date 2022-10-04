@@ -1,6 +1,6 @@
 # Converse Logo Detection
 
-<b><i>Note:</b></i> I have trained both yolov4 and yolov5 model on converse shoes images, for time being we will going to cover yolov4 model only.
+<b><i>Note:</b></i> I have trained both yolov4 and yolov5 model on converse shoes images, for time being we will going to cover explanation of yolov4 model only.
 
 ## Predictions:
 
