@@ -10,19 +10,19 @@
 
 ## YOLOv5
 
-<img src='yolov5_pred.jpg'>
+<img src='static/yolov5_pred.jpg'>
 <b><i>Note:</i></b> Even though the prediction by YOLOv5 for the image looks weaker than YOLOv4, but if you compare the bouding boxes enclosing the logo by both the model. YOLOv5 works pretty well!
 
 ## Traning Results:
 
 ## YOLOv4
 
-<img src='yolov4_train.png' height=650, width=750>
+<img src='static/yolov4_train.png' height=650, width=750>
 
 ## YOLOv5
 
 <b>mAP50 95%</b>
-<img src='yolov5_train.png'>
+<img src='static/yolov5_train.png'>
 
 > <b><i>Note:</i></b> YOLOv5 took just 200 epochs to get mAP50 95% on the other hand YOLOv4 took almost 3000 iterations to reach to mAP50 92%
 
@@ -103,7 +103,7 @@ YOLOv3 - YOLOv3 built upon previous models by adding an objectness score to boun
 
   
 ## YOLOv4:
-  <img src='y4_architecture.png'>
+  <img src='static/y4_architecture.png'>
   
 ### Building blocks of the YOLOv4:
 
@@ -115,13 +115,13 @@ YOLOv3 - YOLOv3 built upon previous models by adding an objectness score to boun
   
   ### Bag of freebies (BOF):
   
-  <img src='y4_bof.png'>
+  <img src='static/y4_bof.png'>
   
   Bag of freebies are those methods that only change the training strategy or only increase the training cost (nothing to do with inference). You can see from the above diagram that there are an insane amount of things you can try, but we will discuss only the most important ones.
   
   ### Bag of specials (BOS):
   
-  <img src='y4_bos.png'>
+  <img src='static/y4_bos.png'>
   
   Bag of specials are those Plugin modules and post-processing methods that only increase the inference cost by a small amount but can significantly improve the accuracy.
   
