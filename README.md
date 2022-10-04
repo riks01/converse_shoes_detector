@@ -6,7 +6,7 @@
 
 ## YOLOv4
 
-<img src='yolov4_pred.jpg'>
+<img src='static/yolov4_pred.jpg'>
 
 ## YOLOv5
 
