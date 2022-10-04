@@ -153,3 +153,6 @@ YOLOv3 - YOLOv3 built upon previous models by adding an objectness score to boun
   > The mAP for object detection is the average of the AP (Average Precision) calculated for all the classes. mAP@0.5 means that it is the mAP calculated at IOU threshold 0.5. The general definition for the Average Precision(AP) is finding the area under the precision-recall curve.
 
 
+## References:
+  1. YOLOv4 research paper: https://arxiv.org/abs/2004.10934
+  2. More on mAP50: <a href='https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173'>Article link</a>
