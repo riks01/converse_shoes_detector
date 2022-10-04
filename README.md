@@ -136,7 +136,7 @@ YOLOv3 - YOLOv3 built upon previous models by adding an objectness score to boun
 4) Cross-Iteration mini Batch Normalizaion (CmBN): To improve the calculated statistics for BN it considers statistics of previous time stamps.
   
 5) Spatial Pyramid Pooling (SPP): SPP use Conv layers to extract image's feature map, then use the max pool of window size_1 to generate a feature set, then repeat this n times and will have different feature maps in height and width dimension, thus it makes a pyramid. YOLOv4 takes this to the next step, instead of applying SPP it divides the feature along depth dimension, applies SPP on each part, and then combines it again to generate an output feature map.
-  <img src="y4_spp.png">
+  <img src="static/y4_spp.png">
   
 6) Spatial Attention Module (SAM): Uses an attention mechanism along with both filters (depth) and spatial (width and height).
   
