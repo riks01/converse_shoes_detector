@@ -6,9 +6,23 @@
 
 ## YOLOv4
 
+ Move into the yolov4/darknet folder and run the following command to test the image by using trained weights:
+ 
+ 
+    # detecting converse logo in above image by keeping threshold value to 0.3
+    !./darknet detector test data/piford.data cfg/yolov4-custom.cfg backup/yolov4-custom_best.weights data/converse-run-star.jpg -thresh 0.3
+    
+    
 <img src='static/yolov4_pred.jpg'>
 
 ## YOLOv5
+
+Move into the yolov5/yolov5 folder and run the following command to test the image by using trained weights:
+ 
+ 
+    #Detect
+    !python detect.py --weights runs/train/exp2/weights/best.pt --img 640 --conf 0.70 --source data/images/converse-run-star.jpg
+    
 
 <img src='static/yolov5_pred.jpg'>
 <b><i>Note:</i></b> Even though the prediction by YOLOv5 for the image looks weaker than YOLOv4, but if you compare the bouding boxes enclosing the logo by both the model. YOLOv5 works pretty well!
